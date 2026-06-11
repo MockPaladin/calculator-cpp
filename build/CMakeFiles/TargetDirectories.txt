@@ -1,0 +1,3 @@
+/home/linux/Documents/GitHub/calculator-cpp/build/CMakeFiles/calculator.dir
+/home/linux/Documents/GitHub/calculator-cpp/build/CMakeFiles/edit_cache.dir
+/home/linux/Documents/GitHub/calculator-cpp/build/CMakeFiles/rebuild_cache.dir

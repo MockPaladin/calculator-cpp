@@ -8,5 +8,5 @@ if [ "${exitCode}" == 0 ]; then
   ./bin/calculator
 else
   echo
-  echo -e "The build failed with exit code \e[31m${exitCode}\e[0m."
+  echo -e "The build failed with exit code \e[31m${exitCode}\e[0m"
 fi

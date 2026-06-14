@@ -72,24 +72,10 @@ include CMakeFiles/calculator.dir/flags.make
 CMakeFiles/calculator.dir/codegen:
 .PHONY : CMakeFiles/calculator.dir/codegen
 
-CMakeFiles/calculator.dir/src/main.cpp.o: CMakeFiles/calculator.dir/flags.make
-CMakeFiles/calculator.dir/src/main.cpp.o: /home/linux/Documents/GitHub/calculator-cpp/src/main.cpp
-CMakeFiles/calculator.dir/src/main.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/linux/Documents/GitHub/calculator-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/calculator.dir/src/main.cpp.o"
-	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/src/main.cpp.o -MF CMakeFiles/calculator.dir/src/main.cpp.o.d -o CMakeFiles/calculator.dir/src/main.cpp.o -c /home/linux/Documents/GitHub/calculator-cpp/src/main.cpp
-
-CMakeFiles/calculator.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator.dir/src/main.cpp.i"
-	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/linux/Documents/GitHub/calculator-cpp/src/main.cpp > CMakeFiles/calculator.dir/src/main.cpp.i
-
-CMakeFiles/calculator.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/src/main.cpp.s"
-	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linux/Documents/GitHub/calculator-cpp/src/main.cpp -o CMakeFiles/calculator.dir/src/main.cpp.s
-
 CMakeFiles/calculator.dir/src/calculator.cpp.o: CMakeFiles/calculator.dir/flags.make
 CMakeFiles/calculator.dir/src/calculator.cpp.o: /home/linux/Documents/GitHub/calculator-cpp/src/calculator.cpp
 CMakeFiles/calculator.dir/src/calculator.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/linux/Documents/GitHub/calculator-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/calculator.dir/src/calculator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/linux/Documents/GitHub/calculator-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/calculator.dir/src/calculator.cpp.o"
 	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/src/calculator.cpp.o -MF CMakeFiles/calculator.dir/src/calculator.cpp.o.d -o CMakeFiles/calculator.dir/src/calculator.cpp.o -c /home/linux/Documents/GitHub/calculator-cpp/src/calculator.cpp
 
 CMakeFiles/calculator.dir/src/calculator.cpp.i: cmake_force
@@ -100,20 +86,66 @@ CMakeFiles/calculator.dir/src/calculator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/src/calculator.cpp.s"
 	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linux/Documents/GitHub/calculator-cpp/src/calculator.cpp -o CMakeFiles/calculator.dir/src/calculator.cpp.s
 
+CMakeFiles/calculator.dir/src/integrate.cpp.o: CMakeFiles/calculator.dir/flags.make
+CMakeFiles/calculator.dir/src/integrate.cpp.o: /home/linux/Documents/GitHub/calculator-cpp/src/integrate.cpp
+CMakeFiles/calculator.dir/src/integrate.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/linux/Documents/GitHub/calculator-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/calculator.dir/src/integrate.cpp.o"
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/src/integrate.cpp.o -MF CMakeFiles/calculator.dir/src/integrate.cpp.o.d -o CMakeFiles/calculator.dir/src/integrate.cpp.o -c /home/linux/Documents/GitHub/calculator-cpp/src/integrate.cpp
+
+CMakeFiles/calculator.dir/src/integrate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator.dir/src/integrate.cpp.i"
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/linux/Documents/GitHub/calculator-cpp/src/integrate.cpp > CMakeFiles/calculator.dir/src/integrate.cpp.i
+
+CMakeFiles/calculator.dir/src/integrate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/src/integrate.cpp.s"
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linux/Documents/GitHub/calculator-cpp/src/integrate.cpp -o CMakeFiles/calculator.dir/src/integrate.cpp.s
+
+CMakeFiles/calculator.dir/src/main.cpp.o: CMakeFiles/calculator.dir/flags.make
+CMakeFiles/calculator.dir/src/main.cpp.o: /home/linux/Documents/GitHub/calculator-cpp/src/main.cpp
+CMakeFiles/calculator.dir/src/main.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/linux/Documents/GitHub/calculator-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/calculator.dir/src/main.cpp.o"
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/src/main.cpp.o -MF CMakeFiles/calculator.dir/src/main.cpp.o.d -o CMakeFiles/calculator.dir/src/main.cpp.o -c /home/linux/Documents/GitHub/calculator-cpp/src/main.cpp
+
+CMakeFiles/calculator.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator.dir/src/main.cpp.i"
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/linux/Documents/GitHub/calculator-cpp/src/main.cpp > CMakeFiles/calculator.dir/src/main.cpp.i
+
+CMakeFiles/calculator.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/src/main.cpp.s"
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linux/Documents/GitHub/calculator-cpp/src/main.cpp -o CMakeFiles/calculator.dir/src/main.cpp.s
+
+CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.o: CMakeFiles/calculator.dir/flags.make
+CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.o: /home/linux/Documents/GitHub/calculator-cpp/src/integrate/tanh-sinh.cpp
+CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/linux/Documents/GitHub/calculator-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.o"
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.o -MF CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.o.d -o CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.o -c /home/linux/Documents/GitHub/calculator-cpp/src/integrate/tanh-sinh.cpp
+
+CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.i"
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/linux/Documents/GitHub/calculator-cpp/src/integrate/tanh-sinh.cpp > CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.i
+
+CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.s"
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linux/Documents/GitHub/calculator-cpp/src/integrate/tanh-sinh.cpp -o CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.s
+
 # Object files for target calculator
 calculator_OBJECTS = \
+"CMakeFiles/calculator.dir/src/calculator.cpp.o" \
+"CMakeFiles/calculator.dir/src/integrate.cpp.o" \
 "CMakeFiles/calculator.dir/src/main.cpp.o" \
-"CMakeFiles/calculator.dir/src/calculator.cpp.o"
+"CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.o"
 
 # External object files for target calculator
 calculator_EXTERNAL_OBJECTS =
 
-calculator: CMakeFiles/calculator.dir/src/main.cpp.o
 calculator: CMakeFiles/calculator.dir/src/calculator.cpp.o
+calculator: CMakeFiles/calculator.dir/src/integrate.cpp.o
+calculator: CMakeFiles/calculator.dir/src/main.cpp.o
+calculator: CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.o
 calculator: CMakeFiles/calculator.dir/build.make
 calculator: CMakeFiles/calculator.dir/compiler_depend.ts
 calculator: CMakeFiles/calculator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/linux/Documents/GitHub/calculator-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable calculator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/linux/Documents/GitHub/calculator-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable calculator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calculator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

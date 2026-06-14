@@ -1,6 +1,6 @@
 #include <string>
-#include <calculator.h>
+#include <calculator.hpp>
 
-std::string Calculator::calculate(std::string &input) {
-  return "Success!";
+std::string Calculator::calculate() {
+  return "Success!\n";
 }

@@ -1,18 +1,14 @@
 #include <iostream>
 #include <string>
-#include "calculator.cpp"
+// #include <calculator.hpp>
+#include <integrate/tanh-sinh.hpp>
+
+double f(double x) {return x * 2;}
 
 int main() {
 
-  std::string input;
-  Calculator calculator;
-
-  std::cout << "Hello!";
-
-  std::cin >> input;
-
-  std::string output = calculator.calculate(input);
-  std::cout << output;
+  double output = tanh_sinh(f, 0.0, 2.0);
+  std::cout << output << std::endl;
   
   return 0;
 }

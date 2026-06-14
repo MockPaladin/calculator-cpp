@@ -4,6 +4,6 @@
 class Calculator {
 
 public:
-  std::string calculate(std::string &input);
+  std::string calculate();
 
 };

@@ -160,6 +160,54 @@ src/calculator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/calculator.cpp.s
 .PHONY : src/calculator.cpp.s
 
+src/integrate.o: src/integrate.cpp.o
+.PHONY : src/integrate.o
+
+# target to build an object file
+src/integrate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/integrate.cpp.o
+.PHONY : src/integrate.cpp.o
+
+src/integrate.i: src/integrate.cpp.i
+.PHONY : src/integrate.i
+
+# target to preprocess a source file
+src/integrate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/integrate.cpp.i
+.PHONY : src/integrate.cpp.i
+
+src/integrate.s: src/integrate.cpp.s
+.PHONY : src/integrate.s
+
+# target to generate assembly for a file
+src/integrate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/integrate.cpp.s
+.PHONY : src/integrate.cpp.s
+
+src/integrate/tanh-sinh.o: src/integrate/tanh-sinh.cpp.o
+.PHONY : src/integrate/tanh-sinh.o
+
+# target to build an object file
+src/integrate/tanh-sinh.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.o
+.PHONY : src/integrate/tanh-sinh.cpp.o
+
+src/integrate/tanh-sinh.i: src/integrate/tanh-sinh.cpp.i
+.PHONY : src/integrate/tanh-sinh.i
+
+# target to preprocess a source file
+src/integrate/tanh-sinh.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.i
+.PHONY : src/integrate/tanh-sinh.cpp.i
+
+src/integrate/tanh-sinh.s: src/integrate/tanh-sinh.cpp.s
+.PHONY : src/integrate/tanh-sinh.s
+
+# target to generate assembly for a file
+src/integrate/tanh-sinh.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.s
+.PHONY : src/integrate/tanh-sinh.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -197,6 +245,12 @@ help:
 	@echo "... src/calculator.o"
 	@echo "... src/calculator.i"
 	@echo "... src/calculator.s"
+	@echo "... src/integrate.o"
+	@echo "... src/integrate.i"
+	@echo "... src/integrate.s"
+	@echo "... src/integrate/tanh-sinh.o"
+	@echo "... src/integrate/tanh-sinh.i"
+	@echo "... src/integrate/tanh-sinh.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

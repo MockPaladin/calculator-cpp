@@ -1,4 +1,11 @@
 .vscode/
-bin/*
+.idea/
+build/*
 
+
+# for a script I use to make development faster
+BUILD
+!scripts/build.sh
+
+bin/*
 !bin/.gitkeep

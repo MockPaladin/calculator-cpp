@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/linux/Documents/GitHub/calculator-cpp/src/calculator.cpp" "CMakeFiles/calculator.dir/src/calculator.cpp.o" "gcc" "CMakeFiles/calculator.dir/src/calculator.cpp.o.d"
+  "/home/linux/Documents/GitHub/calculator-cpp/src/integrate.cpp" "CMakeFiles/calculator.dir/src/integrate.cpp.o" "gcc" "CMakeFiles/calculator.dir/src/integrate.cpp.o.d"
+  "/home/linux/Documents/GitHub/calculator-cpp/src/integrate/tanh-sinh.cpp" "CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.o" "gcc" "CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.o.d"
   "/home/linux/Documents/GitHub/calculator-cpp/src/main.cpp" "CMakeFiles/calculator.dir/src/main.cpp.o" "gcc" "CMakeFiles/calculator.dir/src/main.cpp.o.d"
   "" "calculator" "gcc" "CMakeFiles/calculator.dir/link.d"
   )

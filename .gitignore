@@ -1,6 +1,7 @@
 .vscode/
 .idea/
-build/*
+build/**
+!build/.gitkeep
 
 
 # for a script I use to make development faster

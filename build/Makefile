@@ -184,29 +184,29 @@ src/integrate.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/integrate.cpp.s
 .PHONY : src/integrate.cpp.s
 
-src/integrate/tanh-sinh.o: src/integrate/tanh-sinh.cpp.o
-.PHONY : src/integrate/tanh-sinh.o
+src/integrate/tanhSinh.o: src/integrate/tanhSinh.cpp.o
+.PHONY : src/integrate/tanhSinh.o
 
 # target to build an object file
-src/integrate/tanh-sinh.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.o
-.PHONY : src/integrate/tanh-sinh.cpp.o
+src/integrate/tanhSinh.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/integrate/tanhSinh.cpp.o
+.PHONY : src/integrate/tanhSinh.cpp.o
 
-src/integrate/tanh-sinh.i: src/integrate/tanh-sinh.cpp.i
-.PHONY : src/integrate/tanh-sinh.i
+src/integrate/tanhSinh.i: src/integrate/tanhSinh.cpp.i
+.PHONY : src/integrate/tanhSinh.i
 
 # target to preprocess a source file
-src/integrate/tanh-sinh.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.i
-.PHONY : src/integrate/tanh-sinh.cpp.i
+src/integrate/tanhSinh.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/integrate/tanhSinh.cpp.i
+.PHONY : src/integrate/tanhSinh.cpp.i
 
-src/integrate/tanh-sinh.s: src/integrate/tanh-sinh.cpp.s
-.PHONY : src/integrate/tanh-sinh.s
+src/integrate/tanhSinh.s: src/integrate/tanhSinh.cpp.s
+.PHONY : src/integrate/tanhSinh.s
 
 # target to generate assembly for a file
-src/integrate/tanh-sinh.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.s
-.PHONY : src/integrate/tanh-sinh.cpp.s
+src/integrate/tanhSinh.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/integrate/tanhSinh.cpp.s
+.PHONY : src/integrate/tanhSinh.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -248,9 +248,9 @@ help:
 	@echo "... src/integrate.o"
 	@echo "... src/integrate.i"
 	@echo "... src/integrate.s"
-	@echo "... src/integrate/tanh-sinh.o"
-	@echo "... src/integrate/tanh-sinh.i"
-	@echo "... src/integrate/tanh-sinh.s"
+	@echo "... src/integrate/tanhSinh.o"
+	@echo "... src/integrate/tanhSinh.i"
+	@echo "... src/integrate/tanhSinh.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

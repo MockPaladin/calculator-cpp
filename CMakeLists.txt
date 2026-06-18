@@ -12,7 +12,7 @@ add_executable(calculator
   src/calculator.cpp
   src/integrate.cpp
   src/main.cpp
-  src/integrate/tanh-sinh.cpp
+  src/integrate/tanhSinh.cpp
 )
 
 target_include_directories(calculator

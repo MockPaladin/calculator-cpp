@@ -1,12 +1,6 @@
 .vscode/
 .idea/
 build/**
-!build/.gitkeep
-
-
-# for a script I use to make development faster
-BUILD
-!scripts/build.sh
 
 bin/*
 !bin/.gitkeep

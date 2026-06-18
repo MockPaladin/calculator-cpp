@@ -114,26 +114,26 @@ CMakeFiles/calculator.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/src/main.cpp.s"
 	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linux/Documents/GitHub/calculator-cpp/src/main.cpp -o CMakeFiles/calculator.dir/src/main.cpp.s
 
-CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.o: CMakeFiles/calculator.dir/flags.make
-CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.o: /home/linux/Documents/GitHub/calculator-cpp/src/integrate/tanh-sinh.cpp
-CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/linux/Documents/GitHub/calculator-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.o"
-	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.o -MF CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.o.d -o CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.o -c /home/linux/Documents/GitHub/calculator-cpp/src/integrate/tanh-sinh.cpp
+CMakeFiles/calculator.dir/src/integrate/tanhSinh.cpp.o: CMakeFiles/calculator.dir/flags.make
+CMakeFiles/calculator.dir/src/integrate/tanhSinh.cpp.o: /home/linux/Documents/GitHub/calculator-cpp/src/integrate/tanhSinh.cpp
+CMakeFiles/calculator.dir/src/integrate/tanhSinh.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/linux/Documents/GitHub/calculator-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/calculator.dir/src/integrate/tanhSinh.cpp.o"
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/src/integrate/tanhSinh.cpp.o -MF CMakeFiles/calculator.dir/src/integrate/tanhSinh.cpp.o.d -o CMakeFiles/calculator.dir/src/integrate/tanhSinh.cpp.o -c /home/linux/Documents/GitHub/calculator-cpp/src/integrate/tanhSinh.cpp
 
-CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.i"
-	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/linux/Documents/GitHub/calculator-cpp/src/integrate/tanh-sinh.cpp > CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.i
+CMakeFiles/calculator.dir/src/integrate/tanhSinh.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator.dir/src/integrate/tanhSinh.cpp.i"
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/linux/Documents/GitHub/calculator-cpp/src/integrate/tanhSinh.cpp > CMakeFiles/calculator.dir/src/integrate/tanhSinh.cpp.i
 
-CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.s"
-	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linux/Documents/GitHub/calculator-cpp/src/integrate/tanh-sinh.cpp -o CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.s
+CMakeFiles/calculator.dir/src/integrate/tanhSinh.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/src/integrate/tanhSinh.cpp.s"
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linux/Documents/GitHub/calculator-cpp/src/integrate/tanhSinh.cpp -o CMakeFiles/calculator.dir/src/integrate/tanhSinh.cpp.s
 
 # Object files for target calculator
 calculator_OBJECTS = \
 "CMakeFiles/calculator.dir/src/calculator.cpp.o" \
 "CMakeFiles/calculator.dir/src/integrate.cpp.o" \
 "CMakeFiles/calculator.dir/src/main.cpp.o" \
-"CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.o"
+"CMakeFiles/calculator.dir/src/integrate/tanhSinh.cpp.o"
 
 # External object files for target calculator
 calculator_EXTERNAL_OBJECTS =
@@ -141,7 +141,7 @@ calculator_EXTERNAL_OBJECTS =
 calculator: CMakeFiles/calculator.dir/src/calculator.cpp.o
 calculator: CMakeFiles/calculator.dir/src/integrate.cpp.o
 calculator: CMakeFiles/calculator.dir/src/main.cpp.o
-calculator: CMakeFiles/calculator.dir/src/integrate/tanh-sinh.cpp.o
+calculator: CMakeFiles/calculator.dir/src/integrate/tanhSinh.cpp.o
 calculator: CMakeFiles/calculator.dir/build.make
 calculator: CMakeFiles/calculator.dir/compiler_depend.ts
 calculator: CMakeFiles/calculator.dir/link.txt

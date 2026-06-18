@@ -11,7 +11,7 @@ IntegralType getIntegralType(const std::string &method) {
 
   std::unordered_map<std::string, IntegralType>::const_iterator iterator = integralMap.find(method);
   if (iterator != integralMap.end()) {
-    return iterator -> second;
+    return iterator->second;
   }
   return IntegralType::Unknown;
 }

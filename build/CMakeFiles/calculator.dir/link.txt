@@ -1,1 +1,0 @@
-/usr/bin/aarch64-redhat-linux-g++ -g -Wl,--dependency-file=CMakeFiles/calculator.dir/link.d CMakeFiles/calculator.dir/src/calculator.cpp.o CMakeFiles/calculator.dir/src/integrate.cpp.o CMakeFiles/calculator.dir/src/main.cpp.o CMakeFiles/calculator.dir/src/integrate/tanhSinh.cpp.o -o calculator

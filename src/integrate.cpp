@@ -3,13 +3,15 @@
 #include <constants.hpp>
 #include <integrate.hpp>
 #include <integrate/tanhSinh.hpp>
+#include <integrate/monteCarlo.hpp>
 
 IntegralType getIntegralType(const std::string &method) {
   static const std::unordered_map<std::string, IntegralType> integralMap = {
-    {"tanhSinh", IntegralType::TanhSinh}
+    {"tanhSinh", IntegralType::TanhSinh},
+    {"monteCarlo", IntegralType::MonteCarlo}
   };
 
-  std::unordered_map<std::string, IntegralType>::const_iterator iterator = integralMap.find(method);
+  auto iterator = integralMap.find(method);
   if (iterator != integralMap.end()) {
     return iterator->second;
   }
@@ -19,7 +21,7 @@ IntegralType getIntegralType(const std::string &method) {
 double integrate(double (*f) (double), double a, double b) {
   double out = tanhSinh(f, a, b);
   if (out == constants::NaN) {
-    return constants::NaN;
+    return monteCarlo(f, a, b);
   } else {
     return out;
   }
@@ -29,6 +31,8 @@ double integrate (double (*f) (double), double a, double b, std::string method) 
   switch (getIntegralType(method)) {
     case IntegralType::TanhSinh:
       return tanhSinh(f, a, b);
+    case IntegralType::MonteCarlo:
+      return monteCarlo(f, a, b);
   }
   return constants::NaN;
 }

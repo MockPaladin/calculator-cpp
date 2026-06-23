@@ -13,6 +13,7 @@ add_executable(calculator
   src/integrate.cpp
   src/main.cpp
   src/integrate/tanhSinh.cpp
+  src/integrate/monteCarlo.cpp
 )
 
 target_include_directories(calculator

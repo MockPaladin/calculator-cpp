@@ -1,7 +1,8 @@
 #pragma once
 #include <string>
 
-enum class IntegralType {TanhSinh, Unknown};
+
+enum class IntegralType {TanhSinh, MonteCarlo, Unknown};
 
 IntegralType getIntegralType(const std::string &method);
 

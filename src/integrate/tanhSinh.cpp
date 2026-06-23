@@ -36,7 +36,7 @@ double tanhSinh(double (*f)(double), double a, double b) {
       v = s - p;
       s += p;
       ++k;
-    } while (fabs(v) > constants::tolerance * fabs(s) && k <= constants::num_iters);
+    } while (fabs(v) > constants::tolerance * fabs(s) && k <= constants::numIters);
     e = fabs(v) / (fabs(s) + constants::tolerance);
     return d * s * h;
   }

@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
-#include <calculator.hpp>
+#include "symbol.hpp"
+#include "calculator.hpp"
 
 int main() {
   Symbol x = Symbol('x');

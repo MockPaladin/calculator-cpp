@@ -10,6 +10,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(calculator
   src/calculator.cpp
+  src/symbol.cpp
   src/integrate.cpp
   src/main.cpp
   src/integrate/tanhSinh.cpp

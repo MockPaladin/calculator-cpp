@@ -1,6 +1,6 @@
 # Since I'm too lazy to actually figure out what
 # the minimum version is, I'll just make it this.
-cmake_minimum_required(VERSION 4.3.0)
+cmake_minimum_required(VERSION 3.31.6)
 
 project(calculator LANGUAGES CXX)
 

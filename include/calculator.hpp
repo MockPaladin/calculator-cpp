@@ -5,5 +5,4 @@ class Calculator {
 
 public:
   std::string calculate();
-
 };

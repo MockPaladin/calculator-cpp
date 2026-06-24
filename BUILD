@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# format files
+source ./scripts/format.sh
+
+# build executable
 cd scripts
 source build.sh
 exitCode="$?"

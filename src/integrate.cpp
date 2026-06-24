@@ -6,10 +6,9 @@
 #include <integrate/monteCarlo.hpp>
 
 IntegralType getIntegralType(const std::string &method) {
-  static const std::unordered_map<std::string, IntegralType> integralMap = {
-    {"tanhSinh", IntegralType::TanhSinh},
-    {"monteCarlo", IntegralType::MonteCarlo}
-  };
+  static const std::unordered_map<std::string, IntegralType> integralMap =
+    {{"tanhSinh", IntegralType::TanhSinh},
+     {"monteCarlo", IntegralType::MonteCarlo}};
 
   auto iterator = integralMap.find(method);
   if (iterator != integralMap.end()) {
@@ -18,7 +17,7 @@ IntegralType getIntegralType(const std::string &method) {
   return IntegralType::Unknown;
 }
 
-double integrate(double (*f) (double), double a, double b) {
+double integrate(double (*f)(double), double a, double b) {
   double out = tanhSinh(f, a, b);
   if (out == constants::NaN) {
     return monteCarlo(f, a, b);
@@ -27,7 +26,7 @@ double integrate(double (*f) (double), double a, double b) {
   }
 }
 
-double integrate (double (*f) (double), double a, double b, std::string method) {
+double integrate(double (*f)(double), double a, double b, std::string method) {
   switch (getIntegralType(method)) {
     case IntegralType::TanhSinh:
       return tanhSinh(f, a, b);

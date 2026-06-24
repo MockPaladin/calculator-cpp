@@ -1,0 +1,45 @@
+---
+Language: Cpp
+BasedOnStyle: LLVM
+
+# Indentation
+IndentWidth: 2
+ContinuationIndentWidth: 2
+TabWidth: 2
+UseTab: Never
+
+# Braces
+BreakBeforeBraces: Attach
+
+# Function declarations/definitions
+SpaceBeforeParens: ControlStatements
+PointerAlignment: Right
+ReferenceAlignment: Right
+
+# Keep things compact and avoid alignment games
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+AlignOperands: false
+AlignTrailingComments: false
+
+# Switch formatting
+IndentCaseLabels: true
+IndentCaseBlocks: false
+
+# Initializer lists and wrapping
+Cpp11BracedListStyle: true
+BinPackArguments: true
+BinPackParameters: true
+
+# Includes
+SortIncludes: false
+
+# General layout
+ColumnLimit: 80
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortBlocksOnASingleLine: Never
+
+# Preserve readable line breaks
+PenaltyBreakBeforeFirstCallParameter: 1000
+PenaltyReturnTypeOnItsOwnLine: 1000

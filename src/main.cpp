@@ -5,7 +5,9 @@
 // #include <calculator.hpp>
 #include <integrate.hpp>
 
-double f(double x) {return exp(x);}
+double f(double x) {
+  return exp(x);
+}
 
 int main() {
 
@@ -13,6 +15,6 @@ int main() {
   double exact = exp(2) - 1.0;
   double diff = output - exact;
   std::cout << std::setprecision(11) << diff << std::endl;
-  
+
   return 0;
 }

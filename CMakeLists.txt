@@ -1,5 +1,5 @@
-# Since I'm too lazy to actually figure out what
-# the minimum version is, I'll just make it this.
+# Minimum version is just the version
+# of cmake that GitHub uses.
 cmake_minimum_required(VERSION 3.31.6)
 
 project(calculator LANGUAGES CXX)

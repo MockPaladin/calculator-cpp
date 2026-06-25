@@ -32,7 +32,7 @@ BinPackArguments: true
 BinPackParameters: true
 
 # Includes
-SortIncludes: false
+SortIncludes: true
 
 # General layout
 ColumnLimit: 80

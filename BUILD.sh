@@ -18,5 +18,5 @@ if [ "${exitCode}" == 0 ]; then
   fi
 else
   echo
-  echo -e "The build failed with exit code \e[31m${exitCode}\e[0m"
+  echo -e "The build failed with exit code \e[31m${exitCode}\e[0m."
 fi

@@ -1,7 +1,12 @@
 #include <iostream>
 #include <string>
+<<<<<<< Updated upstream
 #include "symbol.hpp"
 #include "calculator.hpp"
+=======
+#include "calculator.hpp"
+#include "symbol.hpp"
+>>>>>>> Stashed changes
 
 int main() {
   Symbol x = Symbol('x');

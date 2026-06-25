@@ -1,6 +1,7 @@
 #pragma once
 
 class Symbol {
-  public:
-    
+public:
+  Symbol(const char name);
+  const char n;
 };

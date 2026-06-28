@@ -2,6 +2,8 @@
 
 class Symbol {
 public:
-  Symbol(const char name);
+  explicit Symbol(const char name);
+  ~Symbol();
+private:
   const char n;
 };

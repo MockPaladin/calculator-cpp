@@ -1,4 +1,4 @@
 #!/bin/sh
 
-cd ~/Documents/GitHub/calculator-cpp
+cd ../
 clang-format -style=file -i src/**/*.cpp include/**/*.hpp

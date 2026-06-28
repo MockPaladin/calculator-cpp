@@ -1,7 +1,8 @@
 #!/bin/sh
 
 # format files
-source ./scripts/format.sh
+cd scripts
+source format.sh
 
 # build executable
 cd scripts

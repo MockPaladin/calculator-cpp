@@ -3,9 +3,9 @@
  * then translated to C++ and modified.
  */
 #include <cmath>
-#include <stdexcept>
 #include <constants.hpp>
 #include <integrate/tanhSinh.hpp>
+#include <stdexcept>
 
 double tanhSinh(double (*f)(double), double a, double b) {
   try {

@@ -5,9 +5,9 @@
  */
 
 #include <cmath>
-#include <stdexcept>
 #include <constants.hpp>
 #include <integrate/monteCarlo.hpp>
+#include <stdexcept>
 
 double monteCarlo(double (*f)(double), double a, double b, int nMax) {
 

@@ -6,7 +6,7 @@ source format.sh
 
 # build executable
 cd scripts
-source build.sh
+source BUILD.sh
 exitCode="$?"
 
 if [ "${exitCode}" == 0 ]; then

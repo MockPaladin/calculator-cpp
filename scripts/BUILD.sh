@@ -10,5 +10,11 @@ if [ -d "/build" ]; then
   cd ../
 fi
 
+# Force clean the repo so it has to recompile everything
+cd build
+rm -rf CMakeCache.txt CMakeFiles/
+cmake ..
+cd ../
+
 cmake --build build
 mv ./build/calculator ./bin/calculator > /dev/null 2>&1

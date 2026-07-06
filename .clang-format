@@ -43,3 +43,4 @@ AllowShortBlocksOnASingleLine: Never
 # Preserve readable line breaks
 PenaltyBreakBeforeFirstCallParameter: 1000
 PenaltyReturnTypeOnItsOwnLine: 1000
+...

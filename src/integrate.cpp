@@ -1,9 +1,9 @@
-#include <string>
-#include <unordered_map>
 #include <constants.hpp>
 #include <integrate.hpp>
-#include <integrate/tanhSinh.hpp>
 #include <integrate/monteCarlo.hpp>
+#include <integrate/tanhSinh.hpp>
+#include <string>
+#include <unordered_map>
 
 IntegralType getIntegralType(const std::string &method) {
   static const std::unordered_map<std::string, IntegralType> integralMap =

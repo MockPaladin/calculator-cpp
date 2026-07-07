@@ -1,4 +1,5 @@
-#pragma once
+#ifndef SYMBOL_HPP_
+#define SYMBOL_HPP_
 
 class Symbol {
 public:
@@ -7,3 +8,5 @@ public:
 private:
   const char n;
 };
+
+#endif

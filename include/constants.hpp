@@ -1,4 +1,6 @@
-#pragma once
+#ifndef CONSTANTS_HPP_
+#define CONSTANTS_HPP_
+
 #include <limits>
 
 namespace constants {
@@ -7,3 +9,5 @@ inline constexpr double numIters = 6;
 inline constexpr double NaN = std::numeric_limits<double>::quiet_NaN();
 inline constexpr int nMaxDefault = 1e+7;
 } // namespace constants
+
+#endif

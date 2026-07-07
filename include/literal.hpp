@@ -1,4 +1,5 @@
-#pragma once
+#ifndef LITERAL_HPP_
+#define LITERAL_HPP_
 
 class Literal {
 public:
@@ -6,3 +7,5 @@ public:
 private:
   double n;
 };
+
+#endif

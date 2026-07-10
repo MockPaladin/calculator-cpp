@@ -1,3 +1,7 @@
 #include "literal.hpp"
+#include <iostream>
 
-Literal::Literal(const double value) : n(value) {}
+std::ostream &operator<<(std::ostream &os, const Literal &literal) {
+  os << literal.getValue();
+  return os;
+}

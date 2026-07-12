@@ -12,7 +12,7 @@ double tanhSinh(double (*f)(double), double a, double b) {
     double c = (a + b) / 2;
     double d = (b - a) / 2;
     double s = f(c);
-    double e, v, h = 2;
+    double v, h = 2;
     int k = 0;
     do {
       double p = 0, q, fp = 0, fm = 0, t, eh;
@@ -38,7 +38,6 @@ double tanhSinh(double (*f)(double), double a, double b) {
       ++k;
     } while (fabs(v) > constants::tolerance * fabs(s) &&
              k <= constants::numIters);
-    e = fabs(v) / (fabs(s) + constants::tolerance);
     return d * s * h;
   } catch (const std::exception &e) {
     return constants::NaN;

@@ -14,7 +14,7 @@ double monteCarlo(double (*f)(double), double a, double b, int nMax) {
   if (nMax == 0)
     return constants::NaN;
 
-  double total, i = 0;
+  double total = 0, i = 0;
   double r, val;
 
   try {

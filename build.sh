@@ -1,13 +1,15 @@
 #!/bin/sh
 
 # format files
-cd scripts
-source format.sh
-
+clang-format -style=file -i src/**/*.cpp include/**/*.hpp
 # build executable
-cd scripts
-source BUILD.sh
+cd build
+rm -rf CmakeCache.txt CMakeFiles/
+cmake ..
+cd ../
+cmake --build build
 exitCode="$?"
+mv ./build/calculator ./bin/calculator > /dev/null 2>&1
 
 if [ "${exitCode}" == 0 ]; then
   echo -e "\nBuild successful! \e[1mSource output:\e[0m"

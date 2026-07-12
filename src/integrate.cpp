@@ -32,6 +32,8 @@ double integrate(double (*f)(double), double a, double b, std::string method) {
       return tanhSinh(f, a, b);
     case IntegralType::MonteCarlo:
       return monteCarlo(f, a, b);
+    case IntegralType::Unknown:
+      return constants::NaN;
   }
   return constants::NaN;
 }

@@ -4,10 +4,6 @@
 #include "literal.hpp"
 #include "symbol.hpp"
 
-class Expression {
-public:
-private:
-
-}
+class Expression {};
 
 #endif

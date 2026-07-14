@@ -15,6 +15,7 @@ add_executable(calculator
   src/symbol.cpp
   src/integrate.cpp
   src/main.cpp
+  src/expression.cpp
   src/integrate/tanhSinh.cpp
   src/integrate/monteCarlo.cpp
 )

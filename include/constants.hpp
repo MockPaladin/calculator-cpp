@@ -9,5 +9,4 @@ inline constexpr double numIters = 6;
 inline constexpr double NaN = std::numeric_limits<double>::quiet_NaN();
 inline constexpr int nMaxDefault = 1e+7;
 } // namespace constants
-
 #endif

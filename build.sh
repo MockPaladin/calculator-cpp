@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # format files
-clang-format -style=file -i src/**/*.cpp include/**/*.hpp
+clang-format -i -style=file ./src/*.cpp ./src/**/*.cpp ./include/*.hpp ./include/**/*.hpp
 # build executable
 cd build
 rm -rf CmakeCache.txt CMakeFiles/

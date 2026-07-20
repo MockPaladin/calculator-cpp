@@ -11,27 +11,27 @@
 
 double monteCarlo(double (*f)(double), double a, double b, int nMax) {
 
-  if (nMax == 0)
-    return constants::NaN;
+    if (nMax == 0)
+        return constants::NaN;
 
-  double total = 0, i = 0;
-  double r, val;
+    double total = 0, i = 0;
+    double r, val;
 
-  try {
+    try {
 
-    while (i < nMax - 1) {
-      r = a + ((double)(rand()) / RAND_MAX) * (b - a);
-      val = f(r);
-      total += val;
-      i++;
+        while (i < nMax - 1) {
+            r = a + ((double)(rand()) / RAND_MAX) * (b - a);
+            val = f(r);
+            total += val;
+            i++;
+        }
+    } catch (const std::exception &e) {
+        return constants::NaN;
     }
-  } catch (const std::exception &e) {
-    return constants::NaN;
-  }
 
-  return (double)(b - a) * total / nMax;
+    return (double)(b - a) * total / nMax;
 }
 
 double monteCarlo(double (*f)(double), double a, double b) {
-  return monteCarlo(f, a, b, constants::nMaxDefault);
+    return monteCarlo(f, a, b, constants::nMaxDefault);
 }

@@ -4,16 +4,18 @@
 #include <iostream>
 
 class Literal {
-public:
+  public:
+    explicit Literal(const double val) : value(val) {
+    }
 
-  explicit Literal(const double val) : value(val) {}
+    double getValue() const {
+        return value;
+    }
 
-  double getValue() const {return value;}
+    friend std::ostream &operator<<(std::ostream &os, const Literal &literal);
 
-  friend std::ostream &operator<<(std::ostream &os, const Literal &literal);
-
-private:
-  double value;
+  private:
+    double value;
 };
 
 #endif

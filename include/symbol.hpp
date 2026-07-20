@@ -3,15 +3,20 @@
 
 #include <iostream>
 
+#include "expressionNode.hpp"
+
 class Symbol {
-public:
+  private:
+    const char name;
 
-  explicit Symbol(const char n);
-  char getName() const {return name;}
-  friend std::ostream &operator<<(std::ostream &os, const Symbol &symbol);
+  public:
+    explicit Symbol(const char n);
+    char getName() const {
+        return name;
+    }
 
-private:
-  const char name;
+    friend std::ostream &operator<<(std::ostream &os, const Symbol &symbol);
+    friend ExpressionNode operator+(Symbol sym1, Symbol sym2);
 };
 
 #endif

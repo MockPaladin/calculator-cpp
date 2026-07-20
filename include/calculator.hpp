@@ -5,8 +5,8 @@
 
 class Calculator {
 
-public:
-  std::string calculate();
+  public:
+    std::string calculate();
 };
 
 #endif

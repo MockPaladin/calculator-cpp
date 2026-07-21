@@ -7,8 +7,7 @@
 #include "literal.hpp"
 #include "symbol.hpp"
 
-class Expression : private ExpressionNode {
-  private:
+class Expression : public ExpressionNode {
   public:
     explicit Expression(ExpressionNode expr_node);
     virtual double eval() = 0;

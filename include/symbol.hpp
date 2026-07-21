@@ -16,7 +16,7 @@ class Symbol {
     }
 
     friend std::ostream &operator<<(std::ostream &os, const Symbol &symbol);
-    friend ExpressionNode operator+(Symbol sym1, Symbol sym2);
+    friend ExpressionNode operator+(const Symbol &sym1, const Symbol &sym2);
 };
 
 #endif

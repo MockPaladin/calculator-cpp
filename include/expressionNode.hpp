@@ -3,12 +3,12 @@
 
 #include "literal.hpp"
 
-// Forward declaration to avoid circular include dependency
-class Symbol;
+class Symbol; // forward declaration
 
 class ExpressionNode {
   public:
-    explicit ExpressionNode(Literal lit1, Literal lit2, const char op);
+    explicit ExpressionNode(const Literal &lit1, const Literal &lit2,
+                            const char op);
     explicit ExpressionNode(const Symbol &sym1, const Symbol &sym2,
                             const char op);
     double eval() {
